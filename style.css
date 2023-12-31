@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background: #fff8f3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-left: 10px;
+    list-style: none;
+    padding: 10px 25px;
+    color: rgb(71, 70, 70);
+
+}
+button{
+    color: antiquewhite;
+    background: #e75b1a;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+span{
+    color: #e75b1a;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 95px 200px;
+}
+.course-container{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-left: 200px;
+}
+
+.course{
+    width: 18%;
+    gap: 10px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background: rgb(245, 243, 243);
+}
+.course>p{
+    margin-top: 20px;
+    color: rgb(71, 70, 70);
+}
+.course>h2{
+    margin-top: 20px;
+}
+.course>img{
+    width: 35px;
+}
+
